@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["valerosjoseph@gmail.com"]
 
   spec.summary       = %q{ Spec generator for spec-less rails-apps }
-  spec.description   = %q{ This gem generates basic rails specs to lessen the tasks in creating repetitive codes }
+  spec.description   = %q{ This gem generates basic rails specs to lessen tasks in creating repetitive codes }
   spec.homepage      = "https://github.com/neume/specko"
   spec.license       = "MIT"
 
@@ -31,8 +31,8 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
-  
-  spec.add_dependency "parslet", "1.4.0"
+
+  spec.add_dependency "parslet"
 
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
